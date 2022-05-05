@@ -1,0 +1,81 @@
+/* ......................................................Body......................................... */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .....................................................Container........................................ */
+#container{
+    width: 100vw;
+    height: 100vh; 
+    /* font-family: 'Orbitron', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* ..................................................The Paragraph of Timer................................ */
+#timer p{
+    font-size: 50px;
+}
+/* .............................H1 Tag.................................................................... */
+h1{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #00bdf6;;
+}
+/* .................................................Timer................................................... */
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: all .1s ease;
+    outline: 0;
+}
+/* ..................................................Buttons................................................. */
+button{
+    border-radius: 20px;
+    transition: all .1s ease;
+    outline: 0;
+    margin-top:30px;
+    font-size: 22px;
+    width: 150px;
+    height: 40px;
+}
+/* ................................................Buttons on hover.........................................*/
+button:hover{
+    border-color: #f600e2;
+    color: #f600e2;
+    box-shadow: 0px 4px 20px -10px #f600e2;
+}
+/* ................................................Button on focus.......................................... */
+button:focus{
+    border-color: #f600e2;
+    color: #f600e2;
+    box-shadow: 0px 4px 20px -10px #f600e2;
+}
+/* ................................................Timer on hover.......................................... */
+#timer:hover{
+    border-color: #F6B400;
+    color: #F6B400;
+    box-shadow: 0px 4px 20px -4px #F6B400;
+}
+/* ................................................Timer on focus.......................................... */
+#timer:focus{
+    border-color: #F6B400;
+    color: #F6B400;
+    box-shadow: 0px 4px 20px -4px #F6B400;
+    transition: all .2s ease;
+}
+
+
